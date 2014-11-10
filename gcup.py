@@ -67,9 +67,6 @@ def main():
 		email = sys.argv[1].replace(" ","")
 		passw = sys.argv[2].replace(" ","")
 
-		print '\nThe email is: ' + email
-		print '\nthe Password is: ' + passw
-
 		try:
 			instance = Connection(email,passw)
 			print '\nEmail is: ', email,' \nPassword is: ', passw
