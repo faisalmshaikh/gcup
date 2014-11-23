@@ -5,6 +5,7 @@ import gdata.contacts.data
 import glob
 import vobject
 import time
+import os
 
 #Class Connection to invoke everything
 class Connection(object):
@@ -20,8 +21,10 @@ class Connection(object):
 		flag = raw_input("Press '0' to exit program or any other key to continue: ")
 		if flag == '0':
 			exit()
+
+		vcf_path = os.path.dirname(os.path.abspath(__file__))	
 			
-		vcf_list = glob.glob("C:\Users\Tuhin\Desktop\contacts\*.vcf")
+		vcf_list = glob.glob(vcf_path + "\*.vcf")
 		count = 0
 
 		for people in vcf_list:
