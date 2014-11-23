@@ -18,7 +18,7 @@ class Connection(object):
 
 	def Sync(self):
 
-		flag = raw_input("Press '0' to exit program or any other key to continue: ")
+		flag = raw_input("Enter '0' to exit program or any other key to continue: ")
 		if flag == '0':
 			exit()
 
@@ -47,7 +47,7 @@ class Connection(object):
 			name =""
 			number = ""
 			count = count + 1
-			print "\nUploaded Contacts: (" + str(count) + "/322)"
+			print "\nUploaded Contacts: " + str(count)
 			time.sleep(1)
 
 	    	
