@@ -30,7 +30,7 @@ This is a very modest script. As of now, it has the following features:
 - **VOBJECT**: For parsing .VCF files. `pip install vobject`
 
 ####Other Info
-I pulled off when I urgently needed to bulk upload vCards to my Google Contacts account.
+I pulled this script off when I urgently needed to bulk upload vCards to my Google Contacts account.
 
 This is a crude script but gets the job done for now. I will surely refine it more once I am over with my other projects.
 
