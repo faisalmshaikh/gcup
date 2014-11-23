@@ -64,7 +64,7 @@ def main():
 
 	if (len(sys.argv) < 3):
 		print '\nINVAID INPUT FORMAT'
-		print '\n\t Usage: python g.py [email] [password]'
+		print '\n\t Usage: python gcup.py [email] [password]'
 		print '\n'
 	else:
 		email = sys.argv[1].replace(" ","")
