@@ -14,11 +14,13 @@ This is a very modest script. As of now, it has the following features:
 - Supports Name, Phone number and Email for any contact. ( Address and photo support will be added later)
 - Cannot sync automatically when vCard files are added.
 <br/>
+
 ###Table of Contents
 - Usage
 - Dependencies
 - Other Info
 <br/>
+
 ####Usage
 1. Download the **gcup.py** into the directory containing the vCards (.vcf files).
 2. **[Enable the app to access your Google account](https://support.google.com/accounts/answer/6010255?hl=en)** 
@@ -30,8 +32,8 @@ This is a very modest script. As of now, it has the following features:
 - **GDATA**: Google Data APIs for Python. `pip install gdata`
 - **VOBJECT**: For parsing .VCF files. `pip install vobject`
 <br/>
+
 ####Other Info
 I pulled this script off when I urgently needed to bulk upload vCards to my Google Contacts account.
-
 This is a crude script but gets the job done for now. I will surely refine it more once I am over with my other projects.
 
